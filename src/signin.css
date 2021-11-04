@@ -1,0 +1,82 @@
+*{
+  margin:0;
+  padding:0;
+}
+.image{
+  text-align: center;
+  margin: 11vh 0;
+}
+img{
+  border: 6px solid black;
+  border-radius: 200px;
+}
+.big_header{
+  color:whitesmoke;
+  text-align:center;
+  /* margin:6vh 2vw; */
+  font-family: 'IM Fell English SC', serif;
+  font-size:50px;
+}
+
+.do{
+  font-size: small;
+  font-family: 'Titillium Web', sans-serif;
+  
+}
+
+.div1{
+  margin:15vh 30vw;
+  background-color: whitesmoke;
+  color:black;
+  padding:2vh 0vw;
+  border-radius: 5px;
+  border:6px inset whitesmoke;
+
+}
+
+.head{
+  color:black;
+  font-family: 'Inconsolata', monospace;
+}
+
+.div1{
+  text-align:center;
+}
+
+body{
+  background-image: url("dark_background.jpg");
+  background-size:cover;
+}
+
+.footer{
+  color:whitesmoke;
+  position: relative;
+  bottom:0;
+  text-align:center;
+  font-family: 'Ephesis', cursive;
+  font-size:x-large;
+}
+
+input{
+  border-radius: 5px;
+  padding:10px;
+  margin:2vh 2vw;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+button{
+  border-radius: 5px;
+  padding:10px;
+  margin:2vh 2vw;
+  background-color:rgb(74, 119, 202);
+  color:black;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+input:hover{
+  opacity:0.7;
+}
+
+button:hover{
+  opacity:0.7;
+}
